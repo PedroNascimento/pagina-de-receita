@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eaeaea;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  background: #ffffff;
+  width: 70%;
+  margin: 2.5rem auto 2.5rem auto;
+  padding: 2.5rem 1.25rem 2.5rem 1.25rem;
+  border-radius: 0.625rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  text-align: center;
+  color: #1b1b1b;
+  margin-bottom: 1.25rem;
+}
+
+img {
+  width: 100%;
+  height: 15.625rem;
+  object-fit: cover;
+  object-position: 40% 60%;
+  border-radius: 0.625rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #1b1b1b;
+  padding: 2rem;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+.ingredientes li {
+  font-size: 1rem;
+  line-height: 2.25rem;
+  color: #39393a;
+  padding-left: 1.5rem;
+}
+
+.modo-preparo li {
+  font-size: 1rem;
+  line-height: 2.25rem;
+  color: #39393a;
+  padding-left: 1.5rem;
+}
+
+.info-adicional p {
+  color: #39393a;
+  padding-left: 1.5rem;
+  line-height: 2.25rem;
+}
+
+figcaption {
+  color: #8f8f8f;
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+footer {
+  font-size: 0.75rem;
+  color: #8f8f8f;
+  text-align: center;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
